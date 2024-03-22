@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Document</title>
+  </head>
+  <body>
+    <h1>REGISTER NEW STUDENT</h1>
+    <form action="/HTML Forms/registered.pdf">
+      <fieldset>
+        <legend>Name</legend>
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          placeholder="First Name"
+        />
+        <br />
+        <input
+          type="text"
+          name="last_name"
+          id="last_name"
+          placeholder="Last Name"
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Date of Birth</legend>
+        <input type="date" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="male" id="male" />
+        <label for="male">Male</label> <br />
+        <input type="radio" name="female" id="female" />
+        <label for="female">Female</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Address</legend>
+        <label for="house_number">House Number</label
+        ><input type="text" name="house_number" id="house_number" />
+        <label for="street_name"> Street Name</label>
+        <input type="text" name="street_name" id="street_name" />
+        <label for="town_name">Town Name</label
+        ><input type="text" id="town_name" name="town_name" />
+        <label for="state_name">State Name</label>
+        <input type="text" name="state_name" id="state_name" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Telephone</legend>
+        <input
+          type="tel"
+          name="telephone"
+          id="telephone"
+          placeholder="Enter Phone Number"
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>E-mail Address</legend>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter E-mail Address"
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Course</legend>
+        <input type="checkbox" name="math_course" id="math_course" />
+        <label for="math_course">Mathematics</label><br />
+        <input type="checkbox" name="eng_course" id="eng_course" />
+        <label for="eng_course">English Language</label><br />
+        <input type="checkbox" name="phys_course" id="phys_course" />
+        <label for="phys_course">Physics</label><br />
+        <input type="checkbox" name="eco_course" id="eco_course" />
+        <label for="eco_course">Economics</label><br />
+        <input type="checkbox" name="govt_course" id="govt_course" />
+        <label for="mgovt_course">Government</label><br />
+        <input type="checkbox" name="commerce_course" id="commmerce_course" />
+        <label for="commerce_course">Commerce</label><br />
+      </fieldset>
+
+      <div>
+        <input type="submit" name="Submit" id="submit" />
+        <button>Cancel</button>
+      </div>
+    </form>
+  </body>
+</html>
